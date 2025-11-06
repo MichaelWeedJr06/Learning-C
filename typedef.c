@@ -2,7 +2,7 @@
 
 typedef int Number;
 typedef char* String;
-
+typedef char Initials[3];
 int main(){
 
     // typedef = reserved keyword that gives an existing datatype a "nickname"
@@ -22,7 +22,19 @@ int main(){
 
     printf("%s", name);
 
-    String user1 = "BC";
+    Initials user1 = "BC";
+    Initials user2 = "SS";
+    Initials user3 = "PS";
+    Initials user4 = "ST";
+
+
+    printf("%s\n", user1);
+    printf("%s\n", user2);
+    printf("%s\n", user3);
+    printf("%s\n", user4);
+
+
+
     
 
     return 0;
